@@ -7,11 +7,14 @@ end
 
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
+  arr = []
   k = "!"
- planeteer_calls.each{ |i|
-  return "#{i.capitalize} #{k}"
+  planeteer_calls.each_with_index { |i,index|
+     "#{i.capitalize} #{k}"
+     arr[index]= "#{i.capitalize} #{k}"
 
-} 
+  }
+
 end
 
 def long_planeteer_calls(planeteer_calls)
