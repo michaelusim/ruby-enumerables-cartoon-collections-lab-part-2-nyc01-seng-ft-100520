@@ -8,15 +8,19 @@ end
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   
-  planeteer_calls.each{ |i|
+ planeteer_calls.each{ |i|
   puts "#{i.capitalize} #{k}"
 
-}
+} 
 end
 
 def long_planeteer_calls(planeteer_calls)
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
+  planeteer_calls.each{ |i|
+  if i.lenght >
+
+}
 
 end
 
