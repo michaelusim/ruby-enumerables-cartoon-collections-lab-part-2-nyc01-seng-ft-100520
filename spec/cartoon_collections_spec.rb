@@ -36,9 +36,6 @@ describe "./cartoon_collections.rb" do
   end
 
 
-'
-'
-
 #   
 # end
 
