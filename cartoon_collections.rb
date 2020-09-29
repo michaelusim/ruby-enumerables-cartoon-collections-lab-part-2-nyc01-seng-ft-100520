@@ -12,11 +12,8 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.each_with_index { |i,index|
      "#{i.capitalize} #{k}"
      arr[index]= "#{i.capitalize} #{k}"
-  
-  return arr
-
   }
-
+return arr
 end
 
 def long_planeteer_calls(planeteer_calls)
